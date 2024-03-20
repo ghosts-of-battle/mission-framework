@@ -1,0 +1,133 @@
+
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="MRHDebugTools">
+	<Package name="MRHDebugTools">
+		<Container name="MRH_MRHDebugTools_AllSTrings">
+			<Key ID="STR_MRH_MRHDebugTools_DBGTOOLSTITLE">
+				<Original>Debug Tools</Original>
+				<English>Debug Tools</English>
+				<French>Outils de debug</French>
+			</Key>
+			<Key ID="STR_MRH_MRHDebugTools_DRAWTRIGGERS">
+				<Original>Draw triggers</Original>
+				<English>Draw triggers</English>
+				<French>Dessiner les déclencheurs</French>
+			</Key>
+			<Key ID="STR_MRH_MRHDebugTools_STOPDRAWTRIGGERS">
+				<Original>Stop drawing triggers</Original>
+				<English>Stop drawing triggers</English>
+				<French>Arrêter de dessiner les déclencheurs</French>
+			</Key>
+			<Key ID="STR_MRH_MRHDebugTools_DRAWSELCURT">
+				<Original>Draw selections for cursor target</Original>
+				<English>Draw selections for cursor target</English>
+				<French>Dessiner les sélections de l'objet ciblé</French>
+			</Key>
+			<Key ID="STR_MRH_MRHDebugTools_UNDRAWALLSELSPOS">
+				<Original>Undraw all selections positions</Original>
+				<English>Undraw all selections positions</English>
+				<French>Arrêter de dessiner les sélections</French>
+			</Key>
+			<Key ID="STR_MRH_MRHDebugTools_DRAWMTWG">
+				<Original>Draw modelToWorld guides for cursor target</Original>
+				<English>Draw modelToWorld guides for cursor target</English>
+				<French>Dessiner les guides de position modelToWorld pour l'objet ciblé</French>
+			</Key>
+			<Key ID="STR_MRH_MRHDebugTools_UNDRAWMTW">
+				<Original>Undraw all model to world positions</Original>
+				<English>Undraw all model to world positions</English>
+				<French>Arrêter de dessiner les positions modelToWorld</French>
+			</Key>
+			<Key ID="STR_MRH_MRHDebugTools_DBGWARN">
+				<Original>Warning: debug mode is enabled messages will show here</Original>
+				<English>Warning: debug mode is enabled messages will show here</English>
+				<French>Attention: le mode de débuggage est activé, les messages seront affichés ici</French>
+			</Key>
+			<Key ID="STR_MRH_MRHDebugTools_LATESTREPORTCOL">
+				<Original>Milsim Tools Debug mode, latest report:</Original>
+				<English>Milsim Tools Debug mode, latest report:</English>
+				<French>Milsim Tools mode débuggage, dernier rapport:</French>
+			</Key>
+			<Key ID="STR_MRH_MRHDebugTools_OKBUTT">
+				<Original>Ok</Original>
+				<English>Ok</English>
+				<French>Ok</French>
+			</Key>
+			<Key ID="STR_MRH_MRHDebugTools_CLOSEBUTT">
+				<Original>Close</Original>
+				<English>Close</English>
+				<French>Fermer</French>
+			</Key>
+			<Key ID="STR_MRH_MRHDebugTools_DEBUGLOGTITTLE">
+				<Original>Milsim Tools Debug Log</Original>
+				<English>Milsim Tools Debug Log</English>
+				<French>Milsim Tools, journal de débuggage</French>
+			</Key>
+			<Key ID="STR_MRH_MRHDebugTools_COPYTOCLIPBOARDLOG">
+				<Original>Copy log to clipboard</Original>
+				<English>Copy log to clipboard</English>
+				<French>Copier le journal dans le presse-papier</French>
+			</Key>
+			<Key ID="STR_MRH_MRHDebugTools_listModsMenuTitle">
+				<Original>List loaded mods</Original>
+				<English>List loaded mods</English>
+				<French>Liste des mods chargés</French>
+			</Key>
+			<Key ID="STR_MRH_MRHDebugTools_ButtonAll">
+				<Original>All</Original>
+				<English>All</English>
+				<French>Tous</French>
+			</Key>
+			<Key ID="STR_MRH_MRHDebugTools_ButtonMods">
+				<Original>Just mods</Original>
+				<English>Just mods</English>
+				<French>Mods seulement</French>
+			</Key>
+			<Key ID="STR_MRH_MRHDebugTools_ButtonAllAddons">
+				<Original>All addons</Original>
+				<English>All addons</English>
+				<French>Tous les addons</French>
+			</Key>
+			
+			<Key ID="STR_MRH_MRHDebugTools_ButtonGitHub">
+				<Original>For Github</Original>
+				<English>For Github</English>
+				<French>Pour Github</French>
+			</Key>
+			<Key ID="STR_MRH_MRHDebugTools_ButtonToClipBoard">
+				<Original>To clipboard</Original>
+				<English>To clipboard</English>
+				<French>Copier</French>
+			</Key>
+			
+			<Key ID="STR_MRH_MRHDebugTools_helpAll">
+				<Original>All mods that have a proper cfgMods config file will be listed below, the addons that are parts of each mod are listed below them. Some improperly configured mods might not show, some addons might not show for a given mod. For example, for Milsim Tools only the main addon will show beciause I used improper addon naming convention, oh the irony!</Original>
+				<English>All mods that have a proper cfgMods config file will be listed below, the addons that are parts of each mod are listed below them. Some improperly configured mods might not show, some addons might not show for a given mod. For example, for Milsim Tools only the main addon will show beciause I used improper addon naming convention, oh the irony!</English>
+				<French>Tous les mods qui sont correctement configurés avec un cfgMods sont listés ci-dessous, les addons qui constituent ces mods sont listés pour chacun. Certains mods mal configurés peuvent ne pas apparaître, certains addons peuvent ne pas apparâitre pour certains mods. Par exemple pour Milsim Tous seul l'addon principal est affiché parce que j'ai utilisé une convention de dénomination imparfaite... L'ironie du truc...</French>
+			</Key>
+			<Key ID="STR_MRH_MRHDebugTools_helpGitHub">
+				<Original>Mods that have a proper cfgMods in their config will be listed here, the text is preformated for github bug reports in the format they are required on the Ace 3 or CBA github bug report template. If the mods use cba versioning the version will be listed. Mods missing a cfgMods won't be listed.</Original>
+				<English>Mods that have a proper cfgMods in their config will be listed here, the text is preformated for github bug reports in the format they are required on the Ace 3 or CBA github bug report template. If the mods use cba versioning the version will be listed. Mods missing a cfgMods won't be listed.</English>
+				<French>Les mods qui ont un cfgMods correctement définit dans leur config seront listés ici, le texte est préformaté au format des rapports de bug sur Github utilisé par les équipes de Ace3 et de CBA. Si le mod utilise le versioning de CBA la version sera mentionnée. Les mods n'ayant pas de cfgMods ne sont pas listés.</French>
+			</Key>
+			
+			<Key ID="STR_MRH_MRHDebugTools_allAddons">
+				<Original>All addons (excluding arma's base addons) will be listed here, list should be complete and accurate.</Original>
+				<English>All addons (excluding arma's base addons) will be listed here, list should be complete and accurate.</English>
+				<French>Tous les addons (sauf les addons de base d'arma) sont listés, la liste devrait être complète et exhaustive.</French>
+			</Key>
+			<Key ID="STR_MRH_MRHDebugTools_onlyMods">
+				<Original>Only mods will be listed (without their addons components) mods missing a proper cfgMods won't be listed here.</Original>
+				<English>Only mods will be listed (without their addons components) mods missing a proper cfgMods won't be listed here.</English>
+				<French>Seul les mods seront listés (sans les addons qui les composent) les mods n'ayant pas de cfgMods ne sont pas listés.</French>
+			</Key>
+			<Key ID="STR_MRH_MRHDebugTools_">
+				<Original></Original>
+				<English></English>
+				<French></French>
+			</Key>
+			
+			
+		</Container>
+	</Package>
+</Project>

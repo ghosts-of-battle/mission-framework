@@ -1,0 +1,289 @@
+
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="MRHInsertionHandler">
+	<Package name="MRHInsertionHandler">
+		<Container name="MRH_MRHInsertionHandler_AllSTrings">
+			<Key ID="STR_MRH_MRHInsertionHandler_PrepCarGoloadinterfTitle">
+				<Original>Prepare cargo for loading</Original>
+				<English>Prepare cargo for loading</English>
+				<French>Préparer le matériel pour chargement en soute</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_PrepareCGinfotext">
+				<Original>Prepare cargo for plane loading. You can define a name for the cargo but this is not mandatory.</Original>
+				<English>Prepare cargo for plane loading. You can define a name for the cargo but this is not mandatory.</English>
+				<French>Préparer le matériel pour un chargement en soute de l'avion. Vous pouvez définir un nom mais c'est facultatif.</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_defineCGnameinfotext">
+				<Original>Define cargo name</Original>
+				<English>Define cargo name</English>
+				<French>Définir le nom du chargement</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_PrepareCargo">
+				<Original>Prepare cargo</Original>
+				<English>Prepare cargo</English>
+				<French>Préparer</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_Cancel">
+				<Original>Cancel</Original>
+				<English>Cancel</English>
+				<French>Annuler</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_SelectinsertPoint">
+				<Original>Select insertion point:</Original>
+				<English>Select insertion point:</English>
+				<French>Sélectionnez le point d'insertion:</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_selectInsertVeh">
+				<Original>Select insertion vehicle</Original>
+				<English>Select insertion vehicle</English>
+				<French>Sélectionnez le véhicule d'insertion</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_AvailCGSlotsIntel">
+				<Original>Available cargo slots on this vehicle:</Original>
+				<English>Available cargo slots on this vehicle:</English>
+				<French>Places disponibles sur ce véhicule:</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_DesiredAltIntel">
+				<Original>Enter desired flying altitude:</Original>
+				<English>Enter desired flying altitude:</English>
+				<French>Saisir l'altitude vol désirée:</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_startInsertionBtton">
+				<Original>Start insertion</Original>
+				<English>Start insertion</English>
+				<French>Lancer l'insertion</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_InsertionChecListTitle">
+				<Original>Insertion Checklist</Original>
+				<English>Insertion Checklist</English>
+				<French>Checklist:</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_PerToInsertTitle">
+				<Original>Personnel in the insertion</Original>
+				<English>Personnel in the insertion</English>
+				<French>Personnel participant</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_persToAddFlight">
+				<Original>Personnel to add to the insertion</Original>
+				<English>Personnel to add to the insertion</English>
+				<French>Personnel à ajouter à l'insertion</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_selectGrpTitle">
+				<Original>Select group to choose from</Original>
+				<English>Select group to choose from</English>
+				<French>Sélectionnez un groupe</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_perInInsertText">
+				<Original>Personnel selected for the insertion:</Original>
+				<English>Personnel selected for the insertion:</English>
+				<French>Personnel sélectionné pour l'insertion:</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_addToPersButton">
+				<Original>Add to personnel</Original>
+				<English>Add to personnel</English>
+				<French>Ajouter au personnel</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_remvFromPersButton">
+				<Original>Remove from personnel</Original>
+				<English>Remove from personnel</English>
+				<French>Enlever du personnel</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_extraGearExplanationInfo">
+				<Original>Extra gear to bring, each piece of equipment takes 3 slots</Original>
+				<English>Extra gear to bring, each piece of equipment takes 3 slots</English>
+				<French>Matériel supplémentaire à charger, chaque item occupe 3 places</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_BringOnBoardButt">
+				<Original>Bring on board</Original>
+				<English>Bring on board</English>
+				<French>Charger à bord</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_RmvFromCGButton">
+				<Original>Remove from cargo</Original>
+				<English>Remove from cargo</English>
+				<French>Décharger</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_accessInterfaceAceAction">
+				<Original>Access insertion interface</Original>
+				<English>Access insertion interface</English>
+				<French>Accéder à l'interface d'insertion</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_noGearSelectSC">
+				<Original>No gear selected</Original>
+				<English>No gear selected</English>
+				<French>Pas de matériel sélectionné</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_noPlayerSelectedSC">
+				<Original>No player selected</Original>
+				<English>No player selected</English>
+				<French>Pas de joueur sélectionné</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_YouHaventSetDest">
+				<Original>You haven't set a destination</Original>
+				<English>You haven't set a destination</English>
+				<French>Vous n'avez pas définit de destination</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_DestSetForGrid">
+				<Original>Destination set for grid:</Original>
+				<English>Destination set for grid:</English>
+				<French>Destination choisie aux coordonnées:</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_ExcededCGSpace">
+				<Original>You have exceded available cargo space</Original>
+				<English>You have exceded available cargo space</English>
+				<French>Vous avez excédé la charge maximale</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_ThereIsEnoughCGSpace">
+				<Original>There is enough cargo space in the vehicle </Original>
+				<English>There is enough cargo space in the vehicle </English>
+				<French>Il y a suffisament de place dans le véhicule</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_NoPassengersAdded">
+				<Original>You haven't added any passengers to the insertion</Original>
+				<English>You haven't added any passengers to the insertion</English>
+				<French>Vous n'avez pas ajouté de passagers au déploiement</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_YouHaveAddedPass">
+				<Original>You have added passengers</Original>
+				<English>You have added passengers</English>
+				<French>Vous avez ajouté des passagers</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_YouHaventRequiredParams">
+				<Original>You haven't defined the required parameters for the insertion</Original>
+				<English>You haven't defined the required parameters for the insertion</English>
+				<French>Tous les paramètres requis pour l'insertion ne sont pas définits</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_allParamsAreOk">
+				<Original>All parameters are OK</Original>
+				<English>All parameters are OK</English>
+				<French>Tous les paramètres sont corrects</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_hintCMaximumLoadForVeh">
+				<Original>Maximum cargo load for selected vehicle has been reached</Original>
+				<English>Maximum cargo load for selected vehicle has been reached</English>
+				<French>Le chargement maximum pour ce véhicule a été atteint</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_objectAlreadyPreparedQuestion">
+				<Original>This object is already prepared for loading, would you like to remove it from loadable objects?</Original>
+				<English>This object is already prepared for loading, would you like to remove it from loadable objects?</English>
+				<French>Cet objet a déjà été préparé pour chargement, désirez vous le supprimer des objets à charger?</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_RemoveButtTextChg">
+				<Original>Remove</Original>
+				<English>Remove</English>
+				<French>Enlever</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_CargoReadyHC">
+				<Original>Cargo ready!</Original>
+				<English>Cargo ready!</English>
+				<French>Chargement prêt!</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_preppingCancelledHC">
+				<Original>Prepping cancelled</Original>
+				<English>Prepping cancelled</English>
+				<French>Préparation annulée</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_preppingCargoProgressBar">
+				<Original>Prepping cargo</Original>
+				<English>Prepping cargo</English>
+				<French>Préparation pour le chargement en soute</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_AvailCgStlotsVeh">
+				<Original>Available cargo slots on this vehicle</Original>
+				<English>Available cargo slots on this vehicle</English>
+				<French>Places disponibles sur ce véhicule</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_HCObjectRmvList">
+				<Original>Object removed from loadable list</Original>
+				<English>Object removed from loadable list</English>
+				<French>Objet enlevé de la liste de chargement</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_PosIsNotWater">
+				<Original>Position is not on water</Original>
+				<English>Position is not on water</English>
+				<French>La position n'est pas sur l'eau</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_PosIsToShallow">
+				<Original>Position is too shallow, requires a depth of at least 20m. Here: %1 m</Original>
+				<English>Position is too shallow, requires a depth of at least 20m. Here: %1 m</English>
+				<French>L'eau n'est pas assez profonde, 20m minimum sont requis.Ici la profondeur est de %1 m</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_WaterDepthMess">
+				<Original>Water is %1 meters deep</Original>
+				<English>Water is %1 meters deep</English>
+				<French>%1 mètres de profondeur</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_HintSDVDetached">
+				<Original>S.D.V. detached</Original>
+				<English>S.D.V. detached</English>
+				<French>S.D.V. détaché</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_StaticLinePrettyName">
+				<Original>[GHOST] Static line paradrop</Original>
+				<English>[GHOST] Static line paradrop</English>
+				<French>[GHOST] Parachutage S.0.A.</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_HALOJumpPrettyName">
+				<Original>[GHOST] H.A.L.O jump</Original>
+				<English>[GHOST] H.A.L.O jump</English>
+				<French>[GHOST] Parachutage H.A.L.O</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_SubmarinePrettyName">
+				<Original>[GHOST] Submarine insertion</Original>
+				<English>[GHOST] Submarine insertion</English>
+				<French>[GHOST] Insertion par sous-marin</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_ErrorNoSetting">
+				<Original>Error, all insertion types have been disabled! See addon options!</Original>
+				<English>Error, all insertion types have been disabled! See addon options!</English>
+				<French>Erreur! Tous les types d'insertion ont été déasctivés! Voir les options des addons!</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_ComboVirtualPlane">
+				<Original>Vehicle: Virtual Cargo plane</Original>
+				<English>Vehicle: Virtual Cargo plane</English>
+				<French>Véhicule: avion de transport virtuel</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_ComboAutoOpenAlt">
+				<Original>Auto-opening altitude</Original>
+				<English>Auto-opening altitude</English>
+				<French>Altitude d'auto-ouverture</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_ComboTwoSDVs">
+				<Original>Vehicle: 2x Seals Delivery Vehicles</Original>
+				<English>Vehicle: 2x Seals Delivery Vehicles</English>
+				<French>Véhicules: 2x Seals Delivery Vehicles</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_LZASLmarkerInfo">
+				<Original>LZ ground altitude is %1m above sea level</Original>
+				<English>LZ ground altitude is %1m above sea level</English>
+				<French>L'altitude de la zone d'aterrissahe: %1m au dessus du niveau de la mer.</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_SubTakeLocMess">
+				<Original>The submarine is taking you to location, your uniform and vest as well as their contents have been transfered in the S.D.V.</Original>
+				<English>The submarine is taking you to location, your uniform and vest as well as their contents have been transfered in the S.D.V.</English>
+				<French>Le sous-marin vous emmène sur zone, votre uniforme et votre gilet ont été transférés avec leurs contenus dans le S.D.V.</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_SubOnSIteMess">
+				<Original>We're on site, drivers can now detach SDVs via ace interaction</Original>
+				<English>We're on site, drivers can now detach SDVs via ace interaction</English>
+				<French>Nous sommes sur zone, vous pouvez détaché le SDV via l'interaction Ace</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_detachSDVAceAction">
+				<Original>Detach S.D.V.</Original>
+				<English>Detach S.D.V.</English>
+				<French>Détaché le S.D.V.</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_MenuSelectInsertTypeTitle">
+				<Original>Select insertion type</Original>
+				<English>Select insertion type</English>
+				<French>Sélectionnez le type d'insertion</French>
+			</Key>
+			<Key ID="STR_MRH_MRHInsertionHandler_">
+				<Original></Original>
+				<English></English>
+				<French></French>
+			</Key>
+
+		</Container>
+	</Package>
+</Project>

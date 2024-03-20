@@ -1,0 +1,1 @@
+#include "\z\ghostf\addons\respawn\script_component.hpp"

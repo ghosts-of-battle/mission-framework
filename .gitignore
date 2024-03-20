@@ -1,0 +1,17 @@
+release/*
+*.cache
+texHeaders.bin
+*.swp
+*.swo
+*.biprivatekey
+*.dll
+Thumbs.db
+
+*.pbo
+.hemttout
+hemtt
+hemtt.exe
+*.biprivatekey
+releases/*
+*.zip
+

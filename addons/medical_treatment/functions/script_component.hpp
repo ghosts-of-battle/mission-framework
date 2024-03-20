@@ -1,0 +1,1 @@
+#include "\z\ghostf\addons\medical_treatment\script_component.hpp"
