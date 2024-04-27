@@ -1,1 +1,0 @@
-#include "\z\ghostf\addons\safestart\script_component.hpp"

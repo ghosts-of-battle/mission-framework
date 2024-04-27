@@ -1,1 +1,1 @@
-#include "\z\ghostf\addons\blank\script_component.hpp"
+#include "..\script_component.hpp"

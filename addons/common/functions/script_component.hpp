@@ -1,1 +1,0 @@
-#include "\z\ghostf\addons\common\script_component.hpp"

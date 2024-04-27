@@ -1,0 +1,74 @@
+class Header {
+    gameType = Coop;
+    minPlayers = 1;
+    maxPlayers = 100;
+};
+class CfgSettings {
+    class CBA {
+        class Caching {
+            compile = 0;
+            xeh = 0;
+            functions = 0;
+        };
+    };
+};
+
+// cba_settings_hasSettingsFile = 1;
+
+forceRotorLibSimulation  = 1;
+
+/* ADMIN STUFF ------------------------------------------------------------------------------------------------------ */
+cba_settings_whitelist[] = {
+    "76561198000002705",    //YonV
+    "76561111111111111"    //fake to so how its done
+};
+
+enableTargetDebug = 1;
+enableDebugConsole[] = {
+    "76561198000002705",    //YonV
+    "76561111111111111"    //fake to so how its done
+};
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/*                              D O   N O T   E D I T   B E L O W   T H I S    L I N E                                */
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+/* RULES ------------------------------------------------------------------------------------------------------------ */
+
+disabledAI               = true;
+disableChannels[]        = {{0,false,true},{1,false,true},{2,true,true},{6,true,true}};
+
+/* admin pannel ----------------------------------------------------------------------------------------------------- */
+#include "adminpanel\ui\dialog.hpp"
+
+/* TP System -------------------------------------------------------------------------------------------------------- */
+#include "Scripts\dialogs\tp_dialog.hpp"
+
+/* SYSTEMS ---------------------------------------------------------------------------------------------------------- */
+class Extended_PreInit_EventHandlers {
+    Ghost_preInit = "0 spawn compile preprocessFileLineNumbers 'Scripts\preInit.sqf'";
+    class Rev_settings {init = "call compile preprocessFileLineNumbers 'Scripts\Reeveli_fnc\Rev_teleport\Rev_tp_settings.sqf'";};
+    VCM_CBASettings = call compile preprocessFileLineNumbers "Scripts\vcom\Functions\VCM_Functions\fn_CBASettings.sqf";
+};
+class Extended_PostInit_EventHandlers {
+    Ghost_postInit = "0 spawn compile preprocessFileLineNumbers 'Scripts\postInit.sqf'";
+};
+
+class CfgFunctions {
+    #include "Scripts\CfgFunctions.hpp"
+    #include "Scripts\vcom\cfgFunctions.hpp"
+	#include "adminpanel\CfgFunctions.hpp"
+    #include "Scripts\Reeveli_fnc\Reevelis_fnc.hpp"
+	#include "Scripts\jebus\cfgFunctions.hpp"
+};
+
+class CfgRemoteExec {
+    #include "Scripts\CfgRemoteExec.hpp"	
+};
+
+
+#include "Scripts\CfgLoadouts.hpp"
+#include "Scripts\CfgSounds.hpp"
+
+
+/* OTHER ------------------------------------------------------------------------------------------------------------ */

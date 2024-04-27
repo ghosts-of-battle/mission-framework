@@ -1,15 +1,8 @@
-#define COMPONENT blank
-#define COMPONENT_BEAUTIFIED Blank
-#include "\z\ghostf\addons\main\script_mod.hpp"
+#define MODULE blank
+#define MODULE_BEAUTIFIED blank
+#define REQUIRED_ADDONS []
+#define REQUIRED_MODULES ["common"]
 
 // #define DEBUG_MODE_FULL
-// #define DISABLE_COMPILE_CACHE
 
-#ifdef DEBUG_ENABLED_BLANK
-    #define DEBUG_MODE_FULL
-#endif
-    #ifdef DEBUG_SETTINGS_BLANK
-    #define DEBUG_SETTINGS DEBUG_SETTINGS_BLANK
-#endif
-
-#include "\z\ghostf\addons\main\script_macros.hpp"
+#include "..\main\script_component.hpp"

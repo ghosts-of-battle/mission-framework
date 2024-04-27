@@ -1,2 +1,0 @@
-PREP(addWeaponAmmo);
-PREP(randomizeGear);

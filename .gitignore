@@ -1,17 +1,26 @@
-release/*
-*.cache
-texHeaders.bin
-*.swp
-*.swo
-*.biprivatekey
-*.dll
-Thumbs.db
+# Editor
+.vscode
+!tools/.vscode
 
-*.pbo
-.hemttout
-hemtt
-hemtt.exe
-*.biprivatekey
-releases/*
-*.zip
+# Releases
+release
 
+# Tool cache
+__pycache__
+
+# Arma
+mission.sqm
+framework/rsc/loadouts/*.sqf
+framework/rsc/scripts/*.sqf
+!framework/rsc/loadouts/*.sqf
+
+# Todos and changelogs
+TODO.md
+CHANGELOG.md
+
+# template files
+framework/components/_blank
+framework/components/*/functions/fn_empty.sqf
+
+# mkdoc
+site
